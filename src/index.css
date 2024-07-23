@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .transition-all {
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .max-h-0 {
+    max-height: 0;
+    opacity: 0;
+  }
+  
+  .max-h-60vh {
+    max-height: 70vh;
+    opacity: 1;
+  }
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
