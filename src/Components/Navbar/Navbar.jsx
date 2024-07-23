@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { FaBarsStaggered } from "react-icons/fa6";
-import { FaTimes } from "react-icons/fa";
+import { FaBarsStaggered } from 'react-icons/fa6';
+import { FaTimes } from 'react-icons/fa';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+  const [scrolling, setScrolling] = useState(false);
 
   const handleNav = () => {
     setNav(!nav);
@@ -24,9 +25,25 @@ const Navbar = () => {
     };
   }, []);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 100) { // Adjust this value as needed
+        setScrolling(true);
+      } else {
+        setScrolling(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <div className='navbar'>
-      <div className='w-full md:bg-pink-100 bg-black flex md:justify-center justify-start md:p-8 p-4 items-center'>
+    <div className={`navbar ${scrolling ? 'fixed-nav' : ''}`}>
+      <div className={`w-full ${scrolling ? 'md:bg-pink-100' : 'bg-black md:bg-pink-50'} flex md:justify-center justify-start md:p-8 p-4 items-center`}>
         <div className='gap-6 lg:text-[18px] text-[16px] font-bold md:flex hidden'>
           <h3 className='hover:text-red-400 cursor-pointer'>Home</h3>
           <h3 className='hover:text-red-400 cursor-pointer'>Categories</h3>
@@ -55,6 +72,6 @@ const Navbar = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Navbar;
