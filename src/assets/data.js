@@ -47,7 +47,8 @@ export const asset = {
 
 const data = [
     {
-        "id": crypto.randomUUID(),
+        "id": 1,
+        "autor":"Stephen King",
         "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1633097753i/40132775.jpg",
         "title": "House of Sky",
         "description": "Noah Baumbach's incisive and compassionate look at a marriage breaking up and a family staying together.",
@@ -57,7 +58,8 @@ const data = [
         "createdAt": "2024-07-12" // Updated date
     },
     {
-        "id": crypto.randomUUID(),
+        "id": 2,
+        "autor":"J.R.R. Tolkien",
         "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1638867089i/58690308.jpg",
         "title": "Book Lovers",
         "description": "A trio of bodybuilders in Florida get caught up in an extortion ring and a kidnapping scheme that goes terribly wrong.",
@@ -67,7 +69,8 @@ const data = [
         "createdAt": "2024-07-15" // Updated date
     },
     {
-        "id": crypto.randomUUID(),
+        "id": 3,
+        "autor":"J.R.R. Tolkien",
         "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1649848581i/60435878.jpg",
         "title": "Carrie Soto Is Back",
         "description": "A faded television actor and his stunt double strive to achieve fame and success in the film industry during the final years of Hollywood's Golden Age in 1969 Los Angeles.",
@@ -77,7 +80,8 @@ const data = [
         "createdAt": "2024-07-10" // Updated date
     },
     {
-        "id": crypto.randomUUID(),
+        "id": 4,
+        "autor":"J.R.R. Tolkien",
         "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1626710416i/58446227.jpg",
         "title": "Sea of Tranquility",
         "description": "All unemployed, Ki-taek and his family take peculiar interest in the wealthy and glamorous Parks, as they ingratiate themselves into their lives and get entangled in an unexpected incident.",
@@ -87,7 +91,8 @@ const data = [
         "createdAt": "2024-07-14" // Updated date
     },
     {
-        "id": crypto.randomUUID(),
+        "id": 5,
+        "autor":"J.R.R. Tolkien",
         "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1635260162i/58724923.jpg",
         "title": "Hidden Pictures",
         "description": "When Branch’s brother, Floyd, is kidnapped for his musical talents by a pair of nefarious pop-star villains, Branch and Poppy embark on a harrowing and emotional journey to reunite the other brothers and rescue Floyd from a fate even worse than pop-culture obscurity.",
@@ -97,7 +102,8 @@ const data = [
         "createdAt": "2024-07-11" // Updated date
     },
     {
-        "id": crypto.randomUUID(),
+        "id": 6,
+        "autor":"George R.R. Martin",
         "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1634068432i/59233594.jpg",
         "title": "The Final Gambit",
         "description": "When Branch’s brother, Floyd, is kidnapped for his musical talents by a pair of nefarious pop-star villains, Branch and Poppy embark on a harrowing and emotional journey to reunite the other brothers and rescue Floyd from a fate even worse than pop-culture obscurity.",
@@ -106,7 +112,177 @@ const data = [
         "price": 100,
         "createdAt": "2024-04-19",
         "upcoming": true
-    }
+    },
+    {
+        "id": 7,
+        "autor":"J.K. Rowling",
+        "cover": imageSixteen,
+        "title": "Carrie Soto Is Back",
+        "description": "A faded television actor and his stunt double strive to achieve fame and success in the film industry during the final years of Hollywood's Golden Age in 1969 Los Angeles.",
+        "genre": "Comedy/Drama",
+        "rating": 5,
+        "price": 140,
+        "createdAt": "2024-07-10" // Updated date
+    },
+    {
+        "id": 8,
+        "autor":"Stephen King",
+        "cover": imageeighteen,
+        "title": "Sea of Tranquility",
+        "description": "All unemployed, Ki-taek and his family take peculiar interest in the wealthy and glamorous Parks, as they ingratiate themselves into their lives and get entangled in an unexpected incident.",
+        "genre": "Comedy, Drama, Thriller",
+        "rating": 4,
+        "price": 250,
+        "createdAt": "2024-07-14" // Updated date
+    },
+    {
+        "id": 9,
+        "autor":"J.K. Rowling",
+        "cover": imageeleven,
+        "title": "Hidden Pictures",
+        "description": "When Branch’s brother, Floyd, is kidnapped for his musical talents by a pair of nefarious pop-star villains, Branch and Poppy embark on a harrowing and emotional journey to reunite the other brothers and rescue Floyd from a fate even worse than pop-culture obscurity.",
+        "genre": "Action/Adventure/Sci-fi",
+        "rating": 5,
+        "price": 100,
+        "createdAt": "2024-07-11" // Updated date
+    },
+    {
+        "id": 10,
+        "autor":"R.R. Tolkien",
+        "cover": imagefifteen,
+        "title": "The Final Gambit",
+        "description": "When Branch’s brother, Floyd, is kidnapped for his musical talents by a pair of nefarious pop-star villains, Branch and Poppy embark on a harrowing and emotional journey to reunite the other brothers and rescue Floyd from a fate even worse than pop-culture obscurity.",
+        "genre": "Action/Adventure/Sci-fi",
+        "rating": 5,
+        "price": 100,
+        "createdAt": "2024-04-19",
+        "upcoming": true
+    },
+    {
+        "id": 11,
+        "autor":"R.R. Tolkien",
+        "cover": imagefive,
+        "title": "The Final Gambit",
+        "description": "When Branch’s brother, Floyd, is kidnapped for his musical talents by a pair of nefarious pop-star villains, Branch and Poppy embark on a harrowing and emotional journey to reunite the other brothers and rescue Floyd from a fate even worse than pop-culture obscurity.",
+        "genre": "Action/Adventure/Sci-fi",
+        "rating": 5,
+        "price": 100,
+        "createdAt": "2024-04-19",
+        "upcoming": true
+    },
+    {
+        "id": 12,
+        "autor":"Stephen King",
+        "cover": imagefour,
+        "title": "The Final Gambit",
+        "description": "When Branch’s brother, Floyd, is kidnapped for his musical talents by a pair of nefarious pop-star villains, Branch and Poppy embark on a harrowing and emotional journey to reunite the other brothers and rescue Floyd from a fate even worse than pop-culture obscurity.",
+        "genre": "Action/Adventure/Sci-fi",
+        "rating": 5,
+        "price": 100,
+        "createdAt": "2024-04-19",
+        "upcoming": true
+    },
+    {
+        "id": 13,
+        "autor":"George R.R. Martin",
+        "cover": imagefourteen,
+        "title": "The Final Gambit",
+        "description": "When Branch’s brother, Floyd, is kidnapped for his musical talents by a pair of nefarious pop-star villains, Branch and Poppy embark on a harrowing and emotional journey to reunite the other brothers and rescue Floyd from a fate even worse than pop-culture obscurity.",
+        "genre": "Action/Adventure/Sci-fi",
+        "rating": 5,
+        "price": 100,
+        "createdAt": "2024-04-19",
+        "upcoming": true
+    },
+
+    {
+        "id": 14,
+        "autor":"George R.R. Martin",
+        "cover": imagenine,
+        "title": "The Final Gambit",
+        "description": "When Branch’s brother, Floyd, is kidnapped for his musical talents by a pair of nefarious pop-star villains, Branch and Poppy embark on a harrowing and emotional journey to reunite the other brothers and rescue Floyd from a fate even worse than pop-culture obscurity.",
+        "genre": "Action/Adventure/Sci-fi",
+        "rating": 5,
+        "price": 100,
+        "createdAt": "2024-04-19",
+        "upcoming": true
+    },
+    {
+        "id": 15,
+        "autor":"Stephen King",
+        "cover": imageeleven,
+        "title": "The Final Gambit",
+        "description": "When Branch’s brother, Floyd, is kidnapped for his musical talents by a pair of nefarious pop-star villains, Branch and Poppy embark on a harrowing and emotional journey to reunite the other brothers and rescue Floyd from a fate even worse than pop-culture obscurity.",
+        "genre": "Action/Adventure/Sci-fi",
+        "rating": 5,
+        "price": 100,
+        "createdAt": "2024-04-19",
+        "upcoming": true
+    },
+    {
+        "id": 16,
+        "autor":"George R.R. Martin",
+        "cover": imagenineteen,
+        "title": "The Final Gambit",
+        "description": "When Branch’s brother, Floyd, is kidnapped for his musical talents by a pair of nefarious pop-star villains, Branch and Poppy embark on a harrowing and emotional journey to reunite the other brothers and rescue Floyd from a fate even worse than pop-culture obscurity.",
+        "genre": "Action/Adventure/Sci-fi",
+        "rating": 5,
+        "price": 100,
+        "createdAt": "2024-04-19",
+        "upcoming": true
+    },
+    {
+        "id": 17,
+        "cover": imageeleven,
+        "autor":"J.R.R. Tolkien",
+        "title": "The Final Gambit",
+        "description": "When Branch’s brother, Floyd, is kidnapped for his musical talents by a pair of nefarious pop-star villains, Branch and Poppy embark on a harrowing and emotional journey to reunite the other brothers and rescue Floyd from a fate even worse than pop-culture obscurity.",
+        "genre": "Action/Adventure/Sci-fi",
+        "rating": 5,
+        "price": 100,
+        "createdAt": "2024-04-19",
+        "upcoming": true
+    },
+    {
+        "id": 18,
+        "autor":"J.R.R. Tolkien",
+        "cover": imageseventeen,
+        "title": "The Final Gambit",
+        "description": "When Branch’s brother, Floyd, is kidnapped for his musical talents by a pair of nefarious pop-star villains, Branch and Poppy embark on a harrowing and emotional journey to reunite the other brothers and rescue Floyd from a fate even worse than pop-culture obscurity.",
+        "genre": "Action/Adventure/Sci-fi",
+        "rating": 5,
+        "price": 100,
+        "createdAt": "2024-04-19",
+        "upcoming": true
+    },
+    {
+        "id": 19,
+        "autor":"J.R.R. Tolkien",
+        "cover": imagethirteen,
+        "title": "The Final Gambit",
+        "description": "When Branch’s brother, Floyd, is kidnapped for his musical talents by a pair of nefarious pop-star villains, Branch and Poppy embark on a harrowing and emotional journey to reunite the other brothers and rescue Floyd from a fate even worse than pop-culture obscurity.",
+        "genre": "Action/Adventure/Sci-fi",
+        "rating": 5,
+        "price": 100,
+        "createdAt": "2024-04-19",
+        "upcoming": true
+    },
+    {
+        "id": 20,
+        "cover": imagethree,
+        "autor":"J.R.R. Tolkien",
+        "title": "The Final Gambit",
+        "description": "When Branch’s brother, Floyd, is kidnapped for his musical talents by a pair of nefarious pop-star villains, Branch and Poppy embark on a harrowing and emotional journey to reunite the other brothers and rescue Floyd from a fate even worse than pop-culture obscurity.",
+        "genre": "Action/Adventure/Sci-fi",
+        "rating": 5,
+        "price": 100,
+        "createdAt": "2024-04-19",
+        "upcoming": true
+    },
+    
+    
+    
+    
 ];
 
 function getAllBooks() {

@@ -43,7 +43,8 @@ const Navbar = () => {
 
   return (
     <div className={`navbar ${scrolling ? 'fixed-nav' : ''}`}>
-      <div className={`w-full ${scrolling ? 'md:bg-pink-100' : 'bg-black md:bg-pink-50'} flex md:justify-center justify-start md:p-8 p-4 items-center`}>
+      <div className={`w-full ${scrolling ? 'md:bg-pink-100' : 'bg-black md:bg-pink-50'} flex md:justify-center
+       justify-start md:p-6 p-4 items-center`}>
         <div className='gap-6 lg:text-[18px] text-[16px] font-bold md:flex hidden'>
           <h3 className='hover:text-red-400 cursor-pointer'>Home</h3>
           <h3 className='hover:text-red-400 cursor-pointer'>Categories</h3>
