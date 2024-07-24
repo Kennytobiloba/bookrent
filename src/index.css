@@ -79,20 +79,27 @@ body {
   object-fit: cover;
 }
 
-.swiper-pagination-bullet {
-  width: 20px;
-  height: 20px;
-  text-align: center;
-  line-height: 20px;
-  font-size: 12px;
-  color: #000;
-  opacity: 1;
-  background: rgba(0, 0, 0, 0.2);
+
+
+/* SwiperStyles.css */
+
+/* Ensure the navigation buttons are visible */
+
+
+/* Hide pagination bullets */
+.swiper-pagination-bullets {
+  display: none !important;
 }
 
-.swiper-pagination-bullet-active {
-  color: #fff;
-  background: #007aff;
+
+/* Hide navigation buttons on small screens if needed */
+@media (max-width: 640px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 30px; /* Smaller width for small screens */
+    height: 30px; /* Smaller height for small screens */
+    font-size: 18px; /* Smaller icon size for small screens */
+  }
 }
 
 

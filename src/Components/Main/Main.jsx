@@ -21,7 +21,7 @@ const Main = () => {
   };
 
   const autoplay = {
-    delay: 2500, // Adjust the delay time as needed
+    delay: 4000, // Adjust the delay time as needed
     disableOnInteraction: false,
   };
 
@@ -34,9 +34,9 @@ const Main = () => {
       className="mySwiper"
     >
       <SwiperSlide>
-        <div className="relative w-[80%] h-[80vh] mx-auto " id="trigger">
+        <div className="relative  2xl:w-[80%] md:w-[96%]  sm:w-[96%] w-[98%] h-[80vh] mx-auto " id="trigger">
           <img src={asset.imageight} alt="Background" className="w-full h-full object-cover" />
-          <div className="absolute top-[30%] left-[40%] w-[18%] text-white space-y-4 opacity-[100%] inset-0">
+          <div className="absolute top-[30%] md:left-[40%] left-[15%] lg:w-[18%]  md:w-[30%] w-[80%]  text-white space-y-4 opacity-[100%] inset-0">
             <div className="flex justify-center">
               <button className="bg-white text-black border rounded-2xl px-4 py-2 hover:bg-red-600">Science Fiction</button>
             </div>
@@ -56,9 +56,9 @@ const Main = () => {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className="relative w-[80%] h-[80vh] mx-auto " id="trigger">
+        <div className="relative 2xl:w-[80%] md:w-[96%]  sm:w-[96%] w-[98%] h-[80vh] mx-auto " id="trigger">
           <img src={asset.bgthree} alt="Background" className="w-full h-full object-cover" />
-          <div className="absolute top-[30%] left-[40%] w-[18%] text-white space-y-4 opacity-[100%] inset-0">
+          <div className="absolute top-[30%] md:left-[40%] left-[15%] lg:w-[18%]  md:w-[30%] w-[80%]   text-white space-y-4 opacity-[100%] inset-0">
             <div className="flex justify-center">
               <button className="bg-white text-black border rounded-2xl px-4 py-2 hover:bg-red-600">Science Fiction</button>
             </div>
@@ -78,9 +78,9 @@ const Main = () => {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className="relative w-[80%] h-[80vh] mx-auto" id="trigger">
+        <div className="relative 2xl:w-[80%] md:w-[96%]  sm:w-[96%] w-[98%] h-[80vh] mx-auto" id="trigger">
           <img src={asset.bgFour} alt="Background" className="w-full h-full object-cover" />
-          <div className="absolute top-[30%] left-[40%] w-[18%] text-white space-y-4 opacity-[100%] inset-0">
+          <div className="absolute top-[30%] md:left-[40%] left-[15%] lg:w-[18%] md:w-[30%] w-[80%]  text-white space-y-4 opacity-[100%] inset-0">
             <div className="flex justify-center">
               <button className="bg-white text-black border rounded-2xl px-4 py-2 hover:bg-red-600">Science Fiction</button>
             </div>

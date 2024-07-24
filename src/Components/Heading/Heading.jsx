@@ -16,7 +16,7 @@ const Heading = () => {
   return (
     <div className='lg:bg-white w-full lg:h-[110px] md:h-[140px] 
      h-[200px] flex items-center justify-center'>
-      <div className='2xl:w-[80%] md:w-[96%]  sm::w-[96%] w-[98%] mx-auto flex p-8 '>
+      <div className='2xl:w-[80%] md:w-[96%]  sm:w-[96%] w-[98%] mx-auto flex p-8 '>
         <div className="flex justify-between  w-full items-center 
         flex-wrap md:flex-nowrap lg:gap-10 gap-4 md:gap-4">
           <div className="2xl:w-[90px] w-[80px] md:block hidden ">
