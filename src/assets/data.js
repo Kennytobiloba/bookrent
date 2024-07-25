@@ -71,6 +71,7 @@ const data = [
     {
         "id": 3,
         "autor":"J.R.R. Tolkien",
+        "features":"features",
         "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1649848581i/60435878.jpg",
         "title": "Carrie Soto Is Back",
         "description": "A faded television actor and his stunt double strive to achieve fame and success in the film industry during the final years of Hollywood's Golden Age in 1969 Los Angeles.",
@@ -82,6 +83,7 @@ const data = [
     {
         "id": 4,
         "autor":"J.R.R. Tolkien",
+        "features":"features",
         "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1626710416i/58446227.jpg",
         "title": "Sea of Tranquility",
         "description": "All unemployed, Ki-taek and his family take peculiar interest in the wealthy and glamorous Parks, as they ingratiate themselves into their lives and get entangled in an unexpected incident.",
@@ -93,6 +95,7 @@ const data = [
     {
         "id": 5,
         "autor":"J.R.R. Tolkien",
+        "features":"features",
         "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1635260162i/58724923.jpg",
         "title": "Hidden Pictures",
         "description": "When Branch’s brother, Floyd, is kidnapped for his musical talents by a pair of nefarious pop-star villains, Branch and Poppy embark on a harrowing and emotional journey to reunite the other brothers and rescue Floyd from a fate even worse than pop-culture obscurity.",
@@ -104,6 +107,7 @@ const data = [
     {
         "id": 6,
         "autor":"George R.R. Martin",
+        "features":"features",
         "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1634068432i/59233594.jpg",
         "title": "The Final Gambit",
         "description": "When Branch’s brother, Floyd, is kidnapped for his musical talents by a pair of nefarious pop-star villains, Branch and Poppy embark on a harrowing and emotional journey to reunite the other brothers and rescue Floyd from a fate even worse than pop-culture obscurity.",

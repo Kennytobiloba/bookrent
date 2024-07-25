@@ -1,4 +1,5 @@
 
+import Features from '../../Features/Features'
 import BestSelling from '../BestSelling/BestSelling'
 import Main from '../Main/Main'
 
@@ -7,6 +8,7 @@ const Home = () => {
     <div>
        <Main/> 
        <BestSelling/>
+       <Features/>
     </div>
   )
 }
