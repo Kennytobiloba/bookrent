@@ -18,14 +18,20 @@ const Features = () => {
   }
 
   // Display the first feature separately
-  const firstFeature = books[11];
+  const firstFeature = books[8];
 
   return (
-    <div className='2xl:w-[80%] md:w-[96%]  sm:w-[96%] w-[98%] mx-auto  mt-20 flex justify-center '>
+    <div className='2xl:w-[80%] md:w-[96%]  sm:w-[96%] w-[98%] mx-auto  2xl:mt-[8%] mt-[58%] md:mt-[16%]  '>
+      <div className='flex justify-center md:flex-row flex-col h-[70vh]  md:gap-6 gap-[20%]'>
+      
+
        
-      <div className='  min-w-[80%] flex flex-col '>
-      <h1 className='text-[28px] font-bold mb-6'>Featured This Week</h1>
-        <div className='w-[96%] flex justify-between items-center bg-red-600 p-10 '>
+      <div className='  2xl:min-w-[80%] md:max-w-[70%] flex flex-col h-full '>
+      <div className='flex justify-between h-full '>
+      <h1 className='lg:text-[30px] text-[18px] md:text-[22px] font-bold mb-6'>Featured This Week</h1>
+      <button className='text-black  text-[18px] mb-2 px-6 border rounded-[28px] mr-8 font-bold shadow-sm '>view all</button>
+      </div>
+        <div className='w-[98%] flex justify-between items-center   '>
           <Swiper
             spaceBetween={50}
             slidesPerView={1}
@@ -33,12 +39,12 @@ const Features = () => {
             pagination={{ clickable: true }}
             autoplay={{ delay: 3000 }} // Adjust delay time as needed
             modules={[Navigation, Pagination, Autoplay]}
-            className='bg-red-600 w-full'
+            className='bg-red-600 w-[100%] h-full '
           >
             {features.map((book) => (
               <SwiperSlide key={book.id}>
-                <div className='flex gap-4'>
-                <div style={{ display: 'flex', justifyContent: 'center' }} className='w-[40%] h-[58vh]'>
+                <div className='flex gap-4 lg:p-20 p-4 md:p-10'>
+                <div style={{ display: 'flex', justifyContent: 'center' }} className='sm:w-[40%] w-full h-[58vh]'>
                   <img src={book.cover} alt={book.title} style={{ width: '100%' }} className=' object-contain'  />
                 </div>
                 <div className='flex flex-col items-start  justify-center text-start'>
@@ -55,12 +61,13 @@ const Features = () => {
         </div>
         
       </div>
-      <div  className='w-[100%] h-[80vh]'>
+      <div  className='md:w-[100%] w-[70%] h-full'>
           {firstFeature && (
             <div className='w-full h-full '>
               <img src={firstFeature.cover} className='w-full h-full object-cover' />
             </div>
           )}
+        </div>
         </div>
     </div>
   );

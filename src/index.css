@@ -78,6 +78,34 @@ body {
   height: 100%;
   object-fit: cover;
 }
+/* BestSelling.css */
+
+/* Style for the next button */
+.swiper-button-next {
+  color: red; /* Change arrow color */
+  background-color: rgba(255, 255, 255, 0.8); /* Background color for the arrow */
+  border-radius: 50%; /* Make the background circular */
+  width: 40px; /* Set width */
+  height: 40px; /* Set height */
+  right: 20px; /* Adjust position */
+}
+
+/* Style for the prev button */
+.swiper-button-prev {
+  color: black; /* Change arrow color */
+  background-color: rgba(255, 255, 255, 0.8); /* Background color for the arrow */
+  border-radius: 50%; /* Make the background circular */
+  width: 40px; /* Set width */
+  height: 40px; /* Set height */
+  left: 10px; /* Adjust position */
+}
+
+/* Additional styles to remove any unwanted line or border */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 20px; /* Adjust the size of the arrow */
+}
+
 
 
 
