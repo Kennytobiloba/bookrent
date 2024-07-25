@@ -8,7 +8,7 @@ const Books = ({ book }) => {
   }
 
   return (
-    <div  className=' shadow-2xl'>
+    <div  className=' '>
       <Link to={`/items/${book.id}`}>
 
         <img src={book.cover} alt={book.title} className='w-full h-auto object-cover ' />
