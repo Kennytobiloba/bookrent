@@ -21,12 +21,13 @@ const Features = () => {
   const firstFeature = books[8];
 
   return (
-    <div className='2xl:w-[80%] md:w-[96%]  sm:w-[96%] w-[98%] mx-auto  2xl:mt-[8%] mt-[58%] md:mt-[16%]  '>
-      <div className='flex justify-center md:flex-row flex-col h-[70vh]  md:gap-6 gap-[20%]'>
+    <div className='2xl:w-[80%] mb-[16%]  md:w-[96%]  sm:w-[96%] w-[98%] mx-auto  h-[70vh]
+      2xl:mt-[6%] mt-[58%] md:mt-[16%] '>
+      <div className='flex justify-center md:flex-row flex-col h-[70vh] md:h-[85vh]  md:gap-6 gap-[20%]'>
       
 
        
-      <div className='  2xl:min-w-[80%] md:max-w-[70%] flex flex-col h-full '>
+      <div className='  2xl:min-w-[80%] md:max-w-[70%] flex flex-col h-full md:h-[50vh]'>
       <div className='flex justify-between h-full '>
       <h1 className='lg:text-[30px] text-[18px] md:text-[22px] font-bold mb-6'>Featured This Week</h1>
       <button className='text-black  text-[18px] mb-2 px-6 border rounded-[28px] mr-8 font-bold shadow-sm '>view all</button>
@@ -61,7 +62,7 @@ const Features = () => {
         </div>
         
       </div>
-      <div  className='md:w-[100%] w-[70%] h-full'>
+      <div  className='md:w-[100%] w-[100%] h-full '>
           {firstFeature && (
             <div className='w-full h-full '>
               <img src={firstFeature.cover} className='w-full h-full object-cover' />

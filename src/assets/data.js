@@ -43,11 +43,26 @@ export const asset = {
     imagethirteen,
 
 }
+export const Moviescategory = [
+    {
+        categorys:"All"
+    },
+    {
+        categorys:"Horror"
+    },
+    {
+        categorys:"Science Friction"
+    },
+    {
+        categorys:"History"
+    },
+]
 
 
 const data = [
     {
         "id": 1,
+        "category":"History",
         "autor":"Stephen King",
         "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1633097753i/40132775.jpg",
         "title": "House of Sky",
@@ -59,6 +74,7 @@ const data = [
     },
     {
         "id": 2,
+        "category":"History",
         "autor":"J.R.R. Tolkien",
         "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1638867089i/58690308.jpg",
         "title": "Book Lovers",
@@ -70,6 +86,7 @@ const data = [
     },
     {
         "id": 3,
+        "category":"History",
         "autor":"J.R.R. Tolkien",
         "features":"features",
         "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1649848581i/60435878.jpg",
@@ -82,6 +99,7 @@ const data = [
     },
     {
         "id": 4,
+        "category":"History",
         "autor":"J.R.R. Tolkien",
         "features":"features",
         "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1626710416i/58446227.jpg",
@@ -94,6 +112,7 @@ const data = [
     },
     {
         "id": 5,
+        "category":"History",
         "autor":"J.R.R. Tolkien",
         "features":"features",
         "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1635260162i/58724923.jpg",
@@ -106,6 +125,7 @@ const data = [
     },
     {
         "id": 6,
+        "category":"Science Friction",
         "autor":"George R.R. Martin",
         "features":"features",
         "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1634068432i/59233594.jpg",
@@ -120,6 +140,7 @@ const data = [
     {
         "id": 7,
         "autor":"J.K. Rowling",
+        "category":"Science Friction",
         "cover": imageSixteen,
         "title": "Carrie Soto Is Back",
         "description": "A faded television actor and his stunt double strive to achieve fame and success in the film industry during the final years of Hollywood's Golden Age in 1969 Los Angeles.",
@@ -130,6 +151,7 @@ const data = [
     },
     {
         "id": 8,
+        "category":"Science Friction",
         "autor":"Stephen King",
         "cover": imageeighteen,
         "title": "Sea of Tranquility",
@@ -141,6 +163,7 @@ const data = [
     },
     {
         "id": 9,
+        "category":"Science Friction",
         "autor":"J.K. Rowling",
         "cover": imageeleven,
         "title": "Hidden Pictures",
@@ -152,6 +175,7 @@ const data = [
     },
     {
         "id": 10,
+        "category":"Science Friction",
         "autor":"R.R. Tolkien",
         "cover": imagefifteen,
         "title": "The Final Gambit",
@@ -164,6 +188,7 @@ const data = [
     },
     {
         "id": 11,
+        "category":"Science Friction",
         "autor":"R.R. Tolkien",
         "cover": imagefive,
         "title": "The Final Gambit",
@@ -176,6 +201,7 @@ const data = [
     },
     {
         "id": 12,
+        "category":"Science Friction",
         "autor":"Stephen King",
         "cover": imagefour,
         "title": "The Final Gambit",
@@ -188,6 +214,7 @@ const data = [
     },
     {
         "id": 13,
+        "category":"Horror",
         "autor":"George R.R. Martin",
         "cover": imagefourteen,
         "title": "The Final Gambit",
@@ -201,6 +228,7 @@ const data = [
 
     {
         "id": 14,
+        "category":"Horror",
         "autor":"George R.R. Martin",
         "cover": imagenine,
         "title": "The Final Gambit",
@@ -213,6 +241,7 @@ const data = [
     },
     {
         "id": 15,
+        "category":"Horror",
         "autor":"Stephen King",
         "cover": imageeleven,
         "title": "The Final Gambit",
@@ -225,6 +254,7 @@ const data = [
     },
     {
         "id": 16,
+        "category":"Horror",
         "autor":"George R.R. Martin",
         "cover": imagenineteen,
         "title": "The Final Gambit",
@@ -237,6 +267,7 @@ const data = [
     },
     {
         "id": 17,
+        "category":"Horror",
         "cover": imageeleven,
         "autor":"J.R.R. Tolkien",
         "title": "The Final Gambit",
@@ -249,6 +280,7 @@ const data = [
     },
     {
         "id": 18,
+        "category":"Horror",
         "autor":"J.R.R. Tolkien",
         "cover": imageseventeen,
         "title": "The Final Gambit",
@@ -261,6 +293,7 @@ const data = [
     },
     {
         "id": 19,
+        "category":"Horror",
         "autor":"J.R.R. Tolkien",
         "cover": imagethirteen,
         "title": "The Final Gambit",
@@ -273,6 +306,7 @@ const data = [
     },
     {
         "id": 20,
+        "category":"Horror",
         "cover": imagethree,
         "autor":"J.R.R. Tolkien",
         "title": "The Final Gambit",
