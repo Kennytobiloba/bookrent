@@ -21,8 +21,8 @@ const Features = () => {
   const firstFeature = books[8];
 
   return (
-    <div className='2xl:w-[80%] mb-[16%]  md:w-[96%]  sm:w-[96%] w-[98%] mx-auto  h-[70vh]
-      2xl:mt-[6%] mt-[58%] md:mt-[16%] '>
+    <div className='2xl:w-[80%] mb-[16%]   md:w-[96%]  sm:w-[96%] w-[98%] mx-auto  h-[70vh]
+      2xl:mt-[6%] mt-[80%] pt-20 sm:pt-0 sm:mt-[70%] md:mt-[16%] '>
       <div className='flex justify-center md:flex-row flex-col h-[70vh] md:h-[85vh]  md:gap-6 gap-[20%]'>
       
 

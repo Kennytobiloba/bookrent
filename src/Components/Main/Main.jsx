@@ -31,7 +31,7 @@ const Main = () => {
       modules={[Pagination, Autoplay]}
       autoplay={autoplay}
       loop={true}
-      className="mySwiper"
+      className="mySwiper z-50"
     >
       <SwiperSlide>
         <div className="relative 2xl:w-[80%] md:w-[96%]  sm:w-[96%] w-[98%] h-[80vh] mx-auto " id="trigger">
