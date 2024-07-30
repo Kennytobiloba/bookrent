@@ -1,18 +1,28 @@
 import { Outlet } from "react-router-dom";
 import Heading from "./Components/Heading/Heading";
 import Navbar from "./Components/Navbar/Navbar";
-import NavContainer from "./Components/NavContainer/NavContainer";
+import { BookState } from "./Components/Context";
+import { useState } from "react";
+
+
 
 function App() {
+  const [category, setCategory] = useState("All")
+  
   return (
-    <div className="h-screen max-h-screen flex flex-col">
+    <BookState.Provider value={{category,setCategory}}>
+    <div className="h-screen max-h-screen flex flex-col relative">
       <div className="overflow-hidden flex-1 flex flex-col">
-         <NavContainer/>
+      <div className="p-0 m-0 h-auto ">
+      <Heading/>
+      <Navbar/>
+      </div>
         <div className="flex-1 overflow-y-auto">
           <Outlet />
         </div>
       </div>
     </div>
+    </BookState.Provider>
   );
 }
 

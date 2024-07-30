@@ -14,8 +14,8 @@ const BestSelling = () => {
     const books = getAllBooks(); // Fetch the list of books
 
     return (
-        <div className='2xl:w-[80%] md:w-[96%] sm:w-[96%] w-[98%] mx-auto mt-20 text-center'>
-            <h3 className='text-black font-semibold lg:text-3xl md:text-2xl text-lg mb-6'>Best Selling Books Ever</h3>
+        <div className='2xl:w-[80%] md:w-[96%] sm:w-[96%] w-[98%] mx-auto md:mt-20 mt-12 text-center'>
+            <h3 className='text-black font-semibold lg:text-3xl md:text-2xl text-[24px] mb-6'>Best Selling Books Ever</h3>
             <Swiper
                 spaceBetween={10}
                 slidesPerView={6}

@@ -10,6 +10,7 @@ import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/module
 import Books from '../Books/Books';
 import { useMediaQuery } from 'react-responsive';
 
+
 const LatestBooks = ({ category, setCategory }) => {
     const books = getAllBooks();
 

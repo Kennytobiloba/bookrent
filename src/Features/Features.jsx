@@ -29,8 +29,8 @@ const Features = () => {
        
       <div className='  2xl:min-w-[80%] md:max-w-[70%] flex flex-col h-full md:h-[50vh]'>
       <div className='flex justify-between h-full '>
-      <h1 className='lg:text-[30px] text-[18px] md:text-[22px] font-bold mb-6'>Featured This Week</h1>
-      <button className='text-black  text-[18px] mb-2 px-6 border rounded-[28px] mr-8 font-bold shadow-sm '>view all</button>
+      <h1 className='lg:text-3xl md:text-2xl text-[24px] font-bold mb-6'>Featured This Week</h1>
+      <button className='text-black  text-[20px] mb-2 px-6 border rounded-[28px] mr-8 font-bold shadow-sm '>view all</button>
       </div>
         <div className='w-[98%] flex justify-between items-center   '>
           <Swiper

@@ -4,7 +4,7 @@ import Navbar from '../Navbar/Navbar'
 
 const NavContainer = () => {
   return (
-    <div className='h-[30vh]'>
+    <div className=' '>
         <Heading/>
         <Navbar/>
     </div>
