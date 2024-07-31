@@ -58,12 +58,51 @@ export const Moviescategory = [
     },
 ]
 
+export const  filter =[
+    {
+        genres:"All",
+        publisher:"All",
+        Author:"All",
+      },
+    {
+      genres:"History",
+      publisher:"Green Publications",
+      Author:"J.K. Rowling",
+      
+    },
+    {
+    genres:"Horror-Thriller",
+    publisher:"Anondo Publications",
+    Author:"George R.R. Martin",
+      },
+      {
+        genres:"Love Story",
+        publisher:"Rinku Publications",
+        Author:"J.R.R. Tolkien",
+
+      },
+      {
+        genres:"Science Friction",
+        publisher:"Sheba Publications",
+        Author:"Stephen King",
+
+      },
+      {
+        genres:"Biography",
+        publisher:"Red Publications",
+        Author:"J.R.R. Tolkien",
+      },
+
+
+]
 
 const data = [
     {
         "id": 1,
-        "category":"History",
-        "autor":"Stephen King",
+        "categorys":"History",
+        "publisher":"Red Publications",
+         "genres":"History",
+        "autor":"J.K. Rowling",
         "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1633097753i/40132775.jpg",
         "title": "House of Sky",
         "description": "Noah Baumbach's incisive and compassionate look at a marriage breaking up and a family staying together.",
@@ -75,7 +114,9 @@ const data = [
     {
         "id": 2,
         "category":"History",
-        "autor":"J.R.R. Tolkien",
+        "publisher":"Red Publications",
+        "genres":"Science Friction",
+        "autor":"J.K. Rowling",
         "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1638867089i/58690308.jpg",
         "title": "Book Lovers",
         "description": "A trio of bodybuilders in Florida get caught up in an extortion ring and a kidnapping scheme that goes terribly wrong.",
@@ -86,8 +127,10 @@ const data = [
     },
     {
         "id": 3,
+        "publisher":"Red Publications",
         "category":"History",
-        "autor":"J.R.R. Tolkien",
+        "genres":"History",
+        "autor":"J.K. Rowling",
         "features":"features",
         "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1649848581i/60435878.jpg",
         "title": "Carrie Soto Is Back",
@@ -99,8 +142,10 @@ const data = [
     },
     {
         "id": 4,
+        "publisher":"Red Publications",
         "category":"History",
-        "autor":"J.R.R. Tolkien",
+        "genres":"History",
+        "autor":"J.K. Rowling",
         "features":"features",
         "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1626710416i/58446227.jpg",
         "title": "Sea of Tranquility",
@@ -113,7 +158,9 @@ const data = [
     {
         "id": 5,
         "category":"History",
-        "autor":"J.R.R. Tolkien",
+        "publisher":"Anondo Publications",
+        "genres":"History",
+        "autor":"George R.R. Martin",
         "features":"features",
         "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1635260162i/58724923.jpg",
         "title": "Hidden Pictures",
@@ -125,7 +172,9 @@ const data = [
     },
     {
         "id": 6,
-        "category":"Science Friction",
+        "categorys":"History",
+        "publisher":"Anondo Publications",
+         "genres":"Horror-Thriller",
         "autor":"George R.R. Martin",
         "features":"features",
         "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1634068432i/59233594.jpg",
@@ -139,7 +188,9 @@ const data = [
     },
     {
         "id": 7,
-        "autor":"J.K. Rowling",
+        "autor":"George R.R. Martin",
+        "publisher":"Anondo Publications",
+        "genres":"Horror-Thriller",
         "category":"Science Friction",
         "cover": imageSixteen,
         "title": "Carrie Soto Is Back",
@@ -151,8 +202,10 @@ const data = [
     },
     {
         "id": 8,
-        "category":"Science Friction",
-        "autor":"Stephen King",
+        "publisher":"Anondo Publications",
+        "categorys":"History",
+        "genres":"Horror-Thriller",
+        "autor":"George R.R. Martin",
         "cover": imageeighteen,
         "title": "Sea of Tranquility",
         "description": "All unemployed, Ki-taek and his family take peculiar interest in the wealthy and glamorous Parks, as they ingratiate themselves into their lives and get entangled in an unexpected incident.",
@@ -163,8 +216,10 @@ const data = [
     },
     {
         "id": 9,
+        "publisher":"Green Publications",
         "category":"Science Friction",
-        "autor":"J.K. Rowling",
+        "genres":"Horror-Thriller",
+        "autor":"George R.R. Martin",
         "cover": imageeleven,
         "title": "Hidden Pictures",
         "description": "When Branch’s brother, Floyd, is kidnapped for his musical talents by a pair of nefarious pop-star villains, Branch and Poppy embark on a harrowing and emotional journey to reunite the other brothers and rescue Floyd from a fate even worse than pop-culture obscurity.",
@@ -176,7 +231,9 @@ const data = [
     {
         "id": 10,
         "category":"Science Friction",
-        "autor":"R.R. Tolkien",
+        "publisher":"Green Publications",
+        "genres":"Horror-Thriller",
+        "autor":"George R.R. Martin",
         "cover": imagefifteen,
         "title": "The Final Gambit",
         "description": "When Branch’s brother, Floyd, is kidnapped for his musical talents by a pair of nefarious pop-star villains, Branch and Poppy embark on a harrowing and emotional journey to reunite the other brothers and rescue Floyd from a fate even worse than pop-culture obscurity.",
@@ -189,7 +246,9 @@ const data = [
     {
         "id": 11,
         "category":"Science Friction",
-        "autor":"R.R. Tolkien",
+        "publisher":"Green Publications",
+         "genres":"Love Story",
+        "autor":"J.R.R. Tolkien",
         "cover": imagefive,
         "title": "The Final Gambit",
         "description": "When Branch’s brother, Floyd, is kidnapped for his musical talents by a pair of nefarious pop-star villains, Branch and Poppy embark on a harrowing and emotional journey to reunite the other brothers and rescue Floyd from a fate even worse than pop-culture obscurity.",
@@ -202,7 +261,9 @@ const data = [
     {
         "id": 12,
         "category":"Science Friction",
-        "autor":"Stephen King",
+        "publisher":"Green Publications",
+        "genres":"Love Story",
+        "autor":"J.R.R. Tolkien",
         "cover": imagefour,
         "title": "The Final Gambit",
         "description": "When Branch’s brother, Floyd, is kidnapped for his musical talents by a pair of nefarious pop-star villains, Branch and Poppy embark on a harrowing and emotional journey to reunite the other brothers and rescue Floyd from a fate even worse than pop-culture obscurity.",
@@ -214,8 +275,10 @@ const data = [
     },
     {
         "id": 13,
-        "category":"Horror",
-        "autor":"George R.R. Martin",
+        "categorys":"History",
+        "publisher":"Anondo Publications",
+        "genres":"Love Story",
+        "autor":"J.R.R. Tolkien",
         "cover": imagefourteen,
         "title": "The Final Gambit",
         "description": "When Branch’s brother, Floyd, is kidnapped for his musical talents by a pair of nefarious pop-star villains, Branch and Poppy embark on a harrowing and emotional journey to reunite the other brothers and rescue Floyd from a fate even worse than pop-culture obscurity.",
@@ -229,7 +292,9 @@ const data = [
     {
         "id": 14,
         "category":"Horror",
-        "autor":"George R.R. Martin",
+        "publisher":"Anondo Publications",
+        "genres":"Love Story",
+        "autor":"J.R.R. Tolkien",
         "cover": imagenine,
         "title": "The Final Gambit",
         "description": "When Branch’s brother, Floyd, is kidnapped for his musical talents by a pair of nefarious pop-star villains, Branch and Poppy embark on a harrowing and emotional journey to reunite the other brothers and rescue Floyd from a fate even worse than pop-culture obscurity.",
@@ -242,6 +307,8 @@ const data = [
     {
         "id": 15,
         "category":"Horror",
+        "publisher":"Rinku Publications",
+        "genres":"Love Story",
         "autor":"Stephen King",
         "cover": imageeleven,
         "title": "The Final Gambit",
@@ -254,8 +321,10 @@ const data = [
     },
     {
         "id": 16,
-        "category":"Horror",
+        "categorys":"History",
+        "publisher":"Rinku Publications",
         "autor":"George R.R. Martin",
+         "genres":"Science Friction",
         "cover": imagenineteen,
         "title": "The Final Gambit",
         "description": "When Branch’s brother, Floyd, is kidnapped for his musical talents by a pair of nefarious pop-star villains, Branch and Poppy embark on a harrowing and emotional journey to reunite the other brothers and rescue Floyd from a fate even worse than pop-culture obscurity.",
@@ -268,6 +337,7 @@ const data = [
     {
         "id": 17,
         "category":"Horror",
+          "publisher":"Rinku Publications",
         "cover": imageeleven,
         "autor":"J.R.R. Tolkien",
         "title": "The Final Gambit",
@@ -281,7 +351,9 @@ const data = [
     {
         "id": 18,
         "category":"Horror",
-        "autor":"J.R.R. Tolkien",
+        "publisher":"Sheba Publications",
+        "genres":"Science Friction",
+        "autor":"Stephen King",
         "cover": imageseventeen,
         "title": "The Final Gambit",
         "description": "When Branch’s brother, Floyd, is kidnapped for his musical talents by a pair of nefarious pop-star villains, Branch and Poppy embark on a harrowing and emotional journey to reunite the other brothers and rescue Floyd from a fate even worse than pop-culture obscurity.",
@@ -294,7 +366,9 @@ const data = [
     {
         "id": 19,
         "category":"Horror",
-        "autor":"J.R.R. Tolkien",
+        "publisher":"Sheba Publications",
+        "genres":"Science Friction",
+        "autor":"Stephen King",
         "cover": imagethirteen,
         "title": "The Final Gambit",
         "description": "When Branch’s brother, Floyd, is kidnapped for his musical talents by a pair of nefarious pop-star villains, Branch and Poppy embark on a harrowing and emotional journey to reunite the other brothers and rescue Floyd from a fate even worse than pop-culture obscurity.",
@@ -307,8 +381,10 @@ const data = [
     {
         "id": 20,
         "category":"Horror",
+        "publisher":"Sheba Publications",
+        "genres":"Science Friction",
         "cover": imagethree,
-        "autor":"J.R.R. Tolkien",
+        "autor":"Stephen King",
         "title": "The Final Gambit",
         "description": "When Branch’s brother, Floyd, is kidnapped for his musical talents by a pair of nefarious pop-star villains, Branch and Poppy embark on a harrowing and emotional journey to reunite the other brothers and rescue Floyd from a fate even worse than pop-culture obscurity.",
         "genre": "Action/Adventure/Sci-fi", 
