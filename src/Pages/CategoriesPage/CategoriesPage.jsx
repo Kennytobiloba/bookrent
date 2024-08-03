@@ -54,7 +54,7 @@ const CategoriesPage = () => {
         </Button>
       </Dropdown>
      </div>
-      <div className='grid grid-cols-4 gap-4 mt-16 w-full '>
+      <div className='grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-4 mt-16 w-full '>
         {filtered.map((book, id) => (
           <div key={id} className=''>
             <Books book={book} />

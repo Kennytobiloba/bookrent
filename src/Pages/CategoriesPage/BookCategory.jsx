@@ -8,25 +8,25 @@ import FilterCategory from './FilterCategory'
 
 const BookCategory = () => {
   return (
-    <div className='w-[80%] mx-auto flex flex-col gap-2   '>
+    <div className='2xl:w-[80%] md:w-[96%]  sm:w-[96%] w-[98%] mx-auto flex flex-col gap-2   '>
       <div className='relative h-[55vh]'>
         <div className='w-full h-full '>
             <img src={asset.bgone} alt="" className='w-full h-full object-cover' />
         </div>
 
 
-        <div className=' absolute top-[36%] left-[42%]'>
+        <div className=' absolute top-[36%] md:left-[42%] left-[24%]'>
                 <h1 className='text-white font-semibold text-[40px]'>Books Category</h1>
             </div>
             </div>
 
-            <div className='grid grid-cols-3 gap-10'>
+            <div className='grid lg:grid-cols-3 gap-10 grid-cols-5'>
 
-            <div>
+            <div className='col-span-2 md:col-span-1'>
             <FilterCategory />
             </div>
 
-              <div className="col-span-2 w-full">
+              <div className="lg:col-span-2 col-span-3 w-full">
                  
              <CategoriesPage  />
               </div>

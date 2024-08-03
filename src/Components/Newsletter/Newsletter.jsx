@@ -60,10 +60,10 @@ const Newsletter = () => {
           <input
             type="text"
             placeholder="Enter your email"
-            className="outline-none text-black bg-white px-6 py-2 rounded-[26px] mb-4 md:mb-0 md:mr-4 w-[80%] md:w-auto"
+            className="outline-none text-black bg-white md:px-8 md:py-4 px-6 py-2 rounded-[26px] mb-4 md:mb-0 md:mr-4 w-[80%] md:w-auto"
           />
           <button
-            className={`bg-red-500 text-white px-6 py-2 rounded-[26px] ${hover ? "opacity-80" : "opacity-100"} transition-opacity duration-300`}
+            className={`bg-red-500 text-white md:px-8 md:py-4 px-t py-2 rounded-[26px] ${hover ? "opacity-80" : "opacity-100"} transition-opacity duration-300`}
             onMouseEnter={() => setHover(true)}
             onMouseLeave={() => setHover(false)}
           >
