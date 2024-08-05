@@ -6,6 +6,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './Components/Home/Home.jsx'
 import BookDetails from './Pages/BookDetails.jsx'
 import BookCategory from './Pages/CategoriesPage/BookCategory.jsx'
+import Cart from './Pages/Cart/Cart.jsx'
+import SearchPage from './Pages/SearchPage/SearchPage.jsx'
  const router = createBrowserRouter([
   {
     path:"/",
@@ -24,6 +26,16 @@ import BookCategory from './Pages/CategoriesPage/BookCategory.jsx'
       {
         path:"/category",
         element:<BookCategory/>
+        
+      },
+      {
+        path:"/cart",
+        element:<Cart/>
+        
+      },
+      {
+        path:"/search",
+        element:<SearchPage/>
         
       },
     
