@@ -8,7 +8,7 @@ import Newsletter from '../Newsletter/Newsletter'
 
 const Home = () => {
   return (
-    <div className=' '>
+    <div className=' overflow-hidden '>
        <Main/> 
        <BestSelling/>
        <Features/>

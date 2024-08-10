@@ -18,9 +18,11 @@ import bgone from "../assets/bgone.jpg"
 import bgtwo from "../assets/bgtwo.jpg"
 import bgthree from "../assets/bgthree.jpg"
 import bgFour from "../assets/bgfour.jpg"
+import bgFive from "../assets/Capture.png"
 
 
 export const asset = {
+    bgFive,
     Logo,
     bgone,
     bgtwo,

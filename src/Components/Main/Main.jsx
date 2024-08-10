@@ -77,28 +77,7 @@ const Main = () => {
           </div>
         </div>
       </SwiperSlide>
-      <SwiperSlide>
-        <div className="relative 2xl:w-[80%] md:w-[96%]  sm:w-[96%] w-[98%] h-[80vh] mx-auto" id="trigger">
-          <img src={asset.bgFour} alt="Background" className="w-full h-full object-cover" />
-          <div className="absolute top-[30%] md:left-[40%] left-[15%] lg:w-[18%] md:w-[30%] w-[80%]  text-white space-y-4 opacity-[100%] inset-0">
-            <div className="flex justify-center">
-              <button className="bg-white text-black border rounded-2xl px-4 py-2 hover:bg-red-600">Science Fiction</button>
-            </div>
-            <h1 className="text-4xl md:text-5xl 2xl:text-[40px] w-full font-extrabold">
-              The History <br /> Of Phipino
-            </h1>
-            <div className="flex justify-center">
-              <button
-                className={`bg-red-500 text-white px-8 py-[14px] mt-2 rounded-[20px] ${hover ? "opacity-50" : "opacity-100"} transition-opacity`}
-                onMouseEnter={() => setHover(true)}
-                onMouseLeave={() => setHover(false)}
-              >
-                Browse Store
-              </button>
-            </div>
-          </div>
-        </div>
-      </SwiperSlide>
+     
     </Swiper>
   );
 };

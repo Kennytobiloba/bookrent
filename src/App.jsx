@@ -19,7 +19,7 @@ function App() {
   return (
     <BookData.Provider value={{state,dispatch}}>
     <BookState.Provider value={{category,setCategory}}>
-    <div className="h-screen max-h-screen flex flex-col relative">
+    <div className="h-screen max-h-screen flex flex-col  overflow-hidden">
       <div className="overflow-hidden flex-1 flex flex-col">
       <div className="p-0 m-0 h-auto ">
       <Heading/>
